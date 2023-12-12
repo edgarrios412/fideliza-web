@@ -22,7 +22,7 @@ export default () => {
                     >
                         <div>
                             <label className="font-medium">
-                                Email
+                                Telefono
                             </label>
                             <input
                                 type="email"
@@ -32,7 +32,7 @@ export default () => {
                         </div>
                         <div>
                             <label className="font-medium">
-                                Password
+                                Contraseña
                             </label>
                             <input
                                 type="password"
@@ -48,9 +48,9 @@ export default () => {
                                     className="relative flex w-5 h-5 bg-white peer-checked:bg-indigo-600 rounded-md border ring-offset-2 ring-indigo-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
                                 >
                                 </label>
-                                <span>Remember me</span>
+                                <span>Recuerdame</span>
                             </div>
-                            <a href="javascript:void(0)" className="text-center text-indigo-600 hover:text-indigo-500">Forgot password?</a>
+                            <a href="javascript:void(0)" className="text-center text-indigo-600 hover:text-indigo-500">Olvide mi contraseña</a>
                         </div>
                         <button
                             onClick={() => navigate("/inicio")}
@@ -76,7 +76,7 @@ export default () => {
                         </svg>
                         Continua con Google
                     </button>
-                    <p className="text-center">Don't have an account? <a href="/registro" className="font-medium text-indigo-600 hover:text-indigo-500">Sign up</a></p>
+                    <p className="text-center">Aún no tienes cuenta? <a href="/registro" className="font-medium text-indigo-600 hover:text-indigo-500">Registrate</a></p>
                 </div>
             </main>
         </>
